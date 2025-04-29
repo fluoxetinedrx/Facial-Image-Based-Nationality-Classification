@@ -1,4 +1,17 @@
-requests
-beautifulsoup4
-pandas
-tqdm
+# Core dependencies
+numpy>=1.21.0
+pandas>=1.3.0
+pillow>=8.3.0
+tqdm>=4.62.0
+
+# Computer Vision
+opencv-python>=4.5.3
+tensorflow==2.10.0  # Specific version for MTCNN compatibility
+mtcnn>=0.1.1
+
+# Web scraping
+requests>=2.26.0
+beautifulsoup4>=4.9.3
+
+# Note: dlib is commented out as it requires CMake
+# dlib>=19.22.0
